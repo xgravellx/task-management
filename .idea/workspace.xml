@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0e7d453-9f63-48f1-af07-ad31b204ef3b" name="Changes" comment="deleted .idea">
+      <change afterPath="$PROJECT_DIR$/task-management-app/src/components/Header/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-management-app/src/components/Header/styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-management-app/src/pages/Layout/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task-management-app/src/pages/Layout/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-management-app/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-management-app/jsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-management-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/task-management-app/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-management-app/src/components/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/task-management-app/src/components/Sidebar/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-management-app/src/components/Sidebar/Sidebar.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-management-app/src/components/Sidebar/styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-management-app/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-management-app/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-management-app/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-management-app/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "xgravellx"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3913d3b0-2a9f-4c9b-a947-3b456f09cfeb" />
+        <option name="url" value="https://github.com/xgravellx/task-management.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2VA73KlH8k4V0z5svWlRONbaYTu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore_missing_gitignore": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\react101\task-management-app\src\components\Sidebar" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0e7d453-9f63-48f1-af07-ad31b204ef3b" name="Changes" comment="" />
+      <created>1694266831688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694266831688</updated>
+      <workItem from="1694266833517" duration="3833000" />
+    </task>
+    <task id="LOCAL-00001" summary="deleted package">
+      <option name="closed" value="true" />
+      <created>1694269285609</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694269285609</updated>
+    </task>
+    <task id="LOCAL-00002" summary="deleted .idea">
+      <option name="closed" value="true" />
+      <created>1694269354924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694269354924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleted package" />
+    <MESSAGE value="deleted .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted .idea" />
+  </component>
+</project>
