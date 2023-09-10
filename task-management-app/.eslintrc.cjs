@@ -60,7 +60,6 @@ module.exports = {
     "import/no-named-as-default": "off",
     "import/no-webpack-loader-syntax": "off",
     "import/prefer-default-export": "off",
-    "import/no-cycle": "warn",
     "linebreak-style": "off",
     "operator-linebreak": ["error", "after"],
     "no-param-reassign": "off",
