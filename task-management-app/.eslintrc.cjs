@@ -102,6 +102,7 @@ module.exports = {
     "react/sort-comp": "off",
     "react/static-property-placement": "off",
     "prefer-promise-reject-errors": "off",
-    "template-curly-spacing": "off"
+    "template-curly-spacing": "off",
+    "object-curly-spacing": ["error", "always"]
   },
 }

@@ -1,18 +1,11 @@
-import './App.css'
-import Layout from "pages/Layout/index.jsx";
-import {useEffect} from "react";
+import './App.css';
+import Layouts from 'src/layouts/index.jsx';
 
 function App() {
 
-    useEffect(() => {
-
-    },[]);
-
-  return (
-    <>
-      <Layout />
-    </>
-  )
+    return (
+        <Layouts />
+    );
 }
 
-export default App
+export default App;

@@ -1,4 +1,4 @@
-import { Styled } from "components/Sidebar/styled.js";
+import { Styled } from 'components/Sidebar/styled.js';
 
 const Sidebar = () => {
     return (

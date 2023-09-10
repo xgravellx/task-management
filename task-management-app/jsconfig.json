@@ -5,9 +5,11 @@
       "src": ["*"],
       "assets": ["assets/*"],
       "components": ["components/*"],
+      "configs": ["configs/*"],
+      "helpers": ["helpers/*"],
       "hooks": ["hooks/*"],
       "pages": ["pages/*"],
-      "helpers": ["helpers/*"]
+      "routes": ["routes/*"]
     }
   }
 }
