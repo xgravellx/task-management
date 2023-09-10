@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0e7d453-9f63-48f1-af07-ad31b204ef3b" name="Changes" comment="created navbar">
-      <change afterPath="$PROJECT_DIR$/task-management-app/src/helpers/localStorage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-management-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/task-management-app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-management-app/jsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/task-management-app/jsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-management-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/task-management-app/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-management-app/src/components/Header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/task-management-app/src/components/Header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-management-app/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/task-management-app/vite.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="e0e7d453-9f63-48f1-af07-ad31b204ef3b" name="Changes" comment="created localStorageHelper" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,21 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "C:/react101/task-management-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\react101\task-management-app\src\helpers" />
@@ -77,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694266831688</updated>
       <workItem from="1694266833517" duration="12526000" />
-      <workItem from="1694344366260" duration="1298000" />
+      <workItem from="1694344366260" duration="1449000" />
     </task>
     <task id="LOCAL-00001" summary="deleted package">
       <option name="closed" value="true" />
@@ -103,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694276856558</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created localStorageHelper">
+      <option name="closed" value="true" />
+      <created>1694345735703</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694345735703</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +114,7 @@
     <MESSAGE value="deleted package" />
     <MESSAGE value="deleted .idea" />
     <MESSAGE value="created navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="created navbar" />
+    <MESSAGE value="created localStorageHelper" />
+    <option name="LAST_COMMIT_MESSAGE" value="created localStorageHelper" />
   </component>
 </project>
