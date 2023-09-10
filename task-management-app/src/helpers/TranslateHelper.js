@@ -1,12 +1,11 @@
-import i18next from "i18next";
-import {keyframes} from "styled-components";
+import i18next from 'i18next';
 
-const Translate = (key) => {
-   if (!key) return '';
-   return i18next.t(key);
+export const Translate = (key) => {
+    if (!key) return '';
+    return i18next.t(key);
 };
 
-const FormatTranslate = (params) => {
+export const FormatTranslate = (params) => {
     const { key, format } = params;
     return i18next.t(key, { ...format });
 };
