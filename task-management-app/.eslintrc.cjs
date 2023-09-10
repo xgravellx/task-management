@@ -65,7 +65,7 @@ module.exports = {
     "no-param-reassign": "off",
     "indent": [
       "error",
-      2,
+      4,
       {
         "SwitchCase": 1,
         "ignoredNodes": [
