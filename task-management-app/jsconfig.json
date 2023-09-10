@@ -5,7 +5,9 @@
       "src": ["*"],
       "assets": ["assets/*"],
       "components": ["components/*"],
-      "pages": ["pages/*"]
+      "hooks": ["hooks/*"],
+      "pages": ["pages/*"],
+      "helpers": ["helpers/*"]
     }
   }
 }
