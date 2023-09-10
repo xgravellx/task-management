@@ -1,4 +1,4 @@
-import { env } from './environmentConfig.js';
+import { env } from './EnvironmentConfig.js';
 
 export const AppConfigs = {
   language: 'tr',

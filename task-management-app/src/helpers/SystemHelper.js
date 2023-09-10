@@ -1,9 +1,9 @@
-import { AppConfigs } from 'configs/appConfigs.js';
+import { AppConfigs } from 'configs/AppConfigs.js';
 
 import {
     LocalStorageKeys, setLocalStorage,
     updateLocalStorage, getLocalStorage
-} from 'helpers/localStorage.js';
+} from 'helpers/LocalStorageHelper.js';
 
 const defaultSystemConfig = {
     language: 'tr'
