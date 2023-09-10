@@ -7,9 +7,12 @@
       "components": ["components/*"],
       "configs": ["configs/*"],
       "helpers": ["helpers/*"],
+      "layouts": ["layouts/*"],
+      "locales": ["locales/*"],
       "hooks": ["hooks/*"],
       "pages": ["pages/*"],
-      "routes": ["routes/*"]
+      "routes": ["routes/*"],
+      "services": ["services/*"]
     }
   }
 }

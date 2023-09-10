@@ -1,10 +1,10 @@
 import { Styled } from 'components/Header/styled.js';
-import { LocalStorageKeys, setLocalStorage } from 'helpers/LocalStorageHelper.js';
+import { LocalStorageKeys, SetLocalStorage } from 'helpers/LocalStorageHelper.js';
 
 const Header = () => {
 
     const toggleTheme = (theme) => {
-        setLocalStorage(LocalStorageKeys.SYSTEM, theme);
+        SetLocalStorage(LocalStorageKeys.SYSTEM, theme);
     };
 
     return (

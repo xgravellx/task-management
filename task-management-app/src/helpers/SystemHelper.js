@@ -1,16 +1,16 @@
 import { AppConfigs } from 'configs/AppConfigs.js';
 
 import {
-    LocalStorageKeys, setLocalStorage,
-    updateLocalStorage, getLocalStorage
+    LocalStorageKeys, SetLocalStorage,
+    UpdateLocalStorage, GetLocalStorage
 } from 'helpers/LocalStorageHelper.js';
 
 const defaultSystemConfig = {
     language: 'tr'
 };
 
-export const getLocalSystemConfig = () => {
-    const localData = getLocalStorage(LocalStorageKeys.SYSTEM);
+export const GetLocalSystemConfig = () => {
+    const localData = GetLocalStorage(LocalStorageKeys.SYSTEM);
     let result = { ...defaultSystemConfig };
 
     if (localData) {
@@ -20,14 +20,14 @@ export const getLocalSystemConfig = () => {
             // merged version
         }
     } else {
-        setLocalStorage(LocalStorageKeys.SYSTEM, result);
+        SetLocalStorage(LocalStorageKeys.SYSTEM, result);
     }
 
     return result;
 };
 
-export const updateSystemConfig = (key, value) => {
-    const oldLocalData = getLocalStorage(LocalStorageKeys.SYSTEM);
+export const UpdateSystemConfig = (key, value) => {
+    const oldLocalData = GetLocalStorage(LocalStorageKeys.SYSTEM);
     let newLocalData;
     if (oldLocalData) {
         newLocalData = {
@@ -41,11 +41,11 @@ export const updateSystemConfig = (key, value) => {
         };
     }
 
-    updateLocalStorage(LocalStorageKeys.SYSTEM, newLocalData);
+    UpdateLocalStorage(LocalStorageKeys.SYSTEM, newLocalData);
 };
 
-export const getLanguage = () => {
-    const localData = getLocalStorage(LocalStorageKeys.SYSTEM);
+export const GetLanguage = () => {
+    const localData = GetLocalStorage(LocalStorageKeys.SYSTEM);
     const result = localData || defaultSystemConfig;
     return result.language;
 };

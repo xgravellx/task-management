@@ -11,9 +11,12 @@ export default defineConfig({
             'components': path.resolve(__dirname, './src/components'),
             'configs': path.resolve(__dirname, './src/configs'),
             'helpers': path.resolve(__dirname, './src/helpers'),
+            'layouts': path.resolve(__dirname, './src/layouts'),
+            'locales': path.resolve(__dirname, './src/locales'),
             'hooks': path.resolve(__dirname, './src/hooks'),
             'pages': path.resolve(__dirname, './src/pages'),
             'routes': path.resolve(__dirname, './src/routes'),
+            'services': path.resolve(__dirname, './src/services'),
         }
     }
 });

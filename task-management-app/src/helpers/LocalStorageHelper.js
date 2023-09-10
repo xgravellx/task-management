@@ -3,27 +3,27 @@ export const LocalStorageKeys = {
     AUTH: 'HAZEL_AUTH'
 };
 
-export const setLocalStorage = (key, value) => {
+export const SetLocalStorage = (key, value) => {
     localStorage.setItem(key, JSON.stringify(value));
 };
 
-export const updateLocalStorage = (key, value) => {
+export const UpdateLocalStorage = (key, value) => {
     const oldData = localStorage.getItem(key);
     if (oldData && value !== null) {
         const newData = {
             ...JSON.parse(oldData),
             ...value
         };
-        setLocalStorage(key, newData);
+        SetLocalStorage(key, newData);
     }
 };
 
-export const getLocalStorage = (key) => {
+export const GetLocalStorage = (key) => {
     const data = localStorage.getItem(key);
     return data ? JSON.parse(data) : null;
 };
 
-export const deleteLocalStorage = (key) => {
+export const DeleteLocalStorage = (key) => {
     localStorage.removeItem(key);
 };
 
