@@ -1,22 +1,17 @@
-import { Suspense } from 'react';
-
 import Routes from 'routes';
 
-import AppLayout from 'src/layouts/AppLayout/index.jsx';
-import AuthLayout from 'src/layouts/AuthLayout/index.jsx';
+import AppLayout from 'layouts/AppLayout/index.jsx';
+import AuthLayout from 'layouts/AuthLayout/index.jsx';
 
-const Layout = () => {
-    const isLogin = true;
-
+const Layouts = () => {
+    const isLogin = false;
     const Layout = isLogin ? AppLayout : AuthLayout;
 
     return (
-        <Suspense fallback={<div>Yükleniyor...</div>}>
-            <Layout>
-                <Routes />
-            </Layout>
-        </Suspense>
+        <Layout>
+            <Routes />
+        </Layout>
     );
 };
 
-export default Layout;
+export default Layouts;

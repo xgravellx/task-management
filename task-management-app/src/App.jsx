@@ -1,10 +1,14 @@
+import { lazy, Suspense } from 'react';
 import './App.css';
-import Layouts from 'src/layouts/index.jsx';
+
+const Layouts = lazy(() => import('./layouts'));
 
 function App() {
 
     return (
-        <Layouts />
+        <Suspense fallback={<div>Yükleniyor...</div>}>
+            <Layouts />
+        </Suspense>
     );
 }
 
